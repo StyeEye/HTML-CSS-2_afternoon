@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Layouts 2</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <section class="nav-section">
+    <nav>
+        <section class="main-icon"></section>
+        <section class="nav-box">
+            <img class="nav-img" src="./imgs/icon.svg" alt="">
+            <p>Account</p>
+        </section>
+        <section class="nav-box">
+            <img class="nav-img" src="./imgs/icon.svg" alt="">
+            <p>Dashboard</p>
+        </section>
+        <section class="nav-box" id="current-location">
+            <img class="nav-img" src="./imgs/icon.svg" alt="">
+            <p>Courses</p>
+        </section>
+        <section class="nav-box">
+            <img class="nav-img" src="./imgs/icon.svg" alt="">
+            <p>Calendar</p>
+        </section>
+        <section class="nav-box">
+            <img class="nav-img" src="./imgs/icon.svg" alt="">
+            <p>Inbox</p>
+        </section>
+    </nav>
+    </section>
+
+    <section class="main-section">
+        <header>
+            <p class="toggle" onclick="toggleSubMenu()">&#8801;</p>
+            <a href=""><h2>WebDev-V2</h2></a> >
+            <a href=""><h2>Assignments</h2></a> >
+            <p>HTML Layouts 2</p>
+        </header>
+        <hr>
+        <section class="secondary">
+        <aside id="submenu">
+                <a href="">Home</a>
+                <a href="">Modules</a>
+                <a href="">Discussions</a>
+                <a href="">Grades</a>
+                <a href="">People</a>
+            </aside>
+        <main>
+            <p class="notice">This assignment does not count toward the final grade.</p>
+            <h1>HTML Layouts 2</h1>
+            <button>Submit Assignment</button>
+            <hr>
+            <span class="assignment-attrib">
+                <p>Due</p>
+                <p>No Due Date</p>
+            </div>
+            <span class="assignment-attrib">
+                <p>Points</p>
+                <p>3</p>
+            </div>
+            <span class="assignment-attrib">
+                <p>Submitting</p>
+                <p>a website url</p>
+            </div>
+            <hr>
+            <div class="description">Clone a basic website based on instructor or mentor suggestions</div>
+            <hr>
+            <button class="backwards">&#8678; Previous</button>
+            <button class="forwards">Next &#8680;</button>
+        </main>
+        </section>
+    </section>
+    <footer>&#8678;</footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
